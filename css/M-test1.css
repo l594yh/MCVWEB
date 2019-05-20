@@ -1,0 +1,58 @@
+li{
+    list-style: none;
+}
+.tab{
+    height: 20px;
+    width: 250px;
+    position: absolute;
+    bottom: 10px;
+    justify-content: center;
+    align-content: space-between;
+    left: 40.1%;
+}
+.tab li{
+    float: left;
+    text-align: center;
+    line-height: 20px;
+}
+.tab li:hover{
+    cursor: pointer;
+}
+.pic{
+    height:650px ;
+    width: 100%;
+    margin-top:0;
+    /*border:2px solid darkorange;*/
+    position: relative;
+}
+.pic li{
+    height:650px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.pic li img{
+    height: 650px;
+    width: 100%;
+}
+.segment.tab li:hover{
+    cursor: pointer;
+}
+.tab>.on button {
+    background: #f2711c;
+}
+
+/*教程*/
+.ui.two.part{
+    height: 00px;
+}
+.ui.OnePart.segment{
+    width: 50%;
+    top:18px;
+    float: left;
+}
+.ui.TwoPart.segment{
+    width: 50%;
+    float: right;
+}
